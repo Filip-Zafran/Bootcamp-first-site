@@ -1,0 +1,263 @@
+img {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.house {
+    width: 250px;
+    border-radius: 80%;
+}
+
+
+.logo1 {
+    width: 60px;
+    max-width: 55px;
+    margin: 0px;
+}
+
+
+
+.kids_football {
+    max-width: 400px;
+    border-radius: 80%;
+}
+
+.contact {
+    width: 200px;
+}
+
+.game {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 0%;
+    width: 30em;
+    padding-bottom: 15px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 28px;
+    font-style: italic;
+    margin-left: 15em;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+
+
+body {
+    background-color: rgb(230, 194, 128);
+}
+
+html {
+    font-family: 'Varela Round',
+        sans-serif;
+}
+
+
+dt {
+    font-weight: bold;
+    margin-bottom: 0%;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+
+dl {
+    margin-left: 5px;
+}
+
+ol {
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+}
+
+ul {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    list-style-type: lower-alpha;
+
+}
+
+.abc ol {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    list-style-type: lower-alpha;
+
+}
+
+
+.square li {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    list-style-type: square;
+
+}
+
+.circle li {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    list-style-type: circle;
+
+}
+
+
+li {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 30em;
+
+
+
+}
+
+li.a {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 0%;
+    width: 30em;
+    padding-bottom: 15px;
+    list-style-type: square;
+
+}
+
+.subclass li {
+    margin-left: 50px;
+}
+
+
+table td {
+
+    font-weight: normal;
+    text-align: left;
+    width: 30%;
+}
+
+table tr {
+
+    font-weight: normal;
+    text-align: left;
+}
+
+
+.location {
+    text-align: center;
+}
+
+.container_grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 15px;
+    align-items: center;
+    text-align: center;
+    border-color: brown;
+    border-width: 3px;
+
+}
+
+
+
+.ingrid {
+    padding: 20px;
+}
+
+.body_grid {
+    display: grid;
+    grid-template-columns: 300px 500px;
+
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 65px 500px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: rgb(90, 185, 90);
+
+}
+
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+
+nav {
+    margin-left: 100px;
+    margin-right: 960px;
+    background-color: goldenrod;
+    padding-bottom: 2px;
+    padding-left: 0;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    display: flex;
+    flex-grow: 50%;
+}
+
+
+
+nav a {
+    display: block;
+    margin-right: 10px;
+}
+
+
+/* 
+IDEAS
+1) .nav:hover {
+    background-color: blue;
+} 
+2) footer
+
+3) pix slider
+*/
